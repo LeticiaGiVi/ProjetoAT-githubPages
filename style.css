@@ -1,0 +1,87 @@
+body{
+  
+    font-family: 'Chivo', sans-serif !important;
+}
+
+
+
+.item{
+  height: 368px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B7FD97;
+  margin: 60px;
+}
+.item h4{
+    font-size: 20px;
+}
+.projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+
+
+#verde{
+  background-color: #B7FD97;
+}
+
+
+.tudo-objetivo{
+  padding: 8%;
+}
+
+.objetivo{
+  margin-bottom: 7.5%;
+}
+
+.tudo-principal{
+  display: flex;
+  flex-direction: row;
+  background-color: #B7FD97;
+}
+.texto-principal{
+  display: flex;
+  flex-direction: column;
+  padding:2.50%;
+  margin-left:5% ;
+  margin-top: 5%;
+}
+
+
+
+.tudo-principal img{
+  width: 50%;
+  height: 50%;
+}
+
+
+.texto-principal input{
+  border-radius: 1rem;
+  width: 40%;
+  height:2.50rem ;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+}
+
+
+
+input{
+  border-radius: 1rem;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  height:2rem ;
+}
+
+
+#enviar{
+  margin-bottom: 170px;
+}
