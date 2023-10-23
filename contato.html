@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-  <nav >
+  <nav class="container-fluid">
     <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom px-5 ">
       <img class="me-3" width="50" height="auto" src="../imagens/logo.svg" alt="">
 
@@ -17,7 +17,7 @@
         <li class="nav-item rounded"><a href="index.html" class="nav-link text-dark">Home</a></li>
         <li class="nav-item"><a href="projetos.html" class="nav-link text-dark">Projetos</a></li>
         <li class="nav-item"><a href="sobre.html" class="nav-link text-dark">Sobre</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark border rounded-pill">Contato</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-dark border rounded-pill">Contato</a></li>
       </ul>
 
       <div class="text-end">
@@ -30,62 +30,44 @@
 
 
     <main>
-      <div class="text-center fw-bold">
+      <div class="text-center fw-bold " >
         <h1>Entre em contato conosco </h1>
         <h5>Nos de sugestões e criticas e comentarios sobre nossos projetos </h5>
       </div>
 
-      <div class="contato container rounded-top">
+      <div class="contato container rounded px-5 py-5 col-sm-7 border border-dark">
+
         <div class="row">
-          <div class="col">
+          <div class="col m-2">
             <h6 >Nome Completo:</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            <input type="text" class="form-control border border-dark" placeholder="First name" aria-label="First name">
           </div>
-          <div class="col">
+          <div class="col m-2">
             <h6 >E-mail:</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            <input type="text" class="form-control border border-dark " placeholder="Last name" aria-label="Last name">
           </div>
         </div>
+
         <div class="row">
-          <div class="col">
-            <h6 >telofone:</h6>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          <div class="col m-2">
+            <h6 >Telofone:</h6>
+            <input type="text" class="form-control border border-dark" placeholder="First name" aria-label="First name">
           </div>
-          <div class="col">
+          <div class="col m-2">
             <h6 >Assunto</h6>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            <input type="text" class="form-control border border-dark" placeholder="Last name" aria-label="Last name">
           </div>
-          <h6 >menssagem:</h6>
-          <input type="textarea" class="form-control" placeholder="First name" aria-label="First name">
         </div>
-
-      </div>
-
-
-      <!-- <div class="contato container">
-  <div class="d-flex flex-column  ">
-    <div class="d-flex flex-row justify-content-center " >
-        <div class="p-4">
-          <h6 >Nome Completo:</h6>
-          <input type="name" id="password-login" class="form-control m-2 rounded">
-          <h6 >E-mail:</h6>
-          <input type="email" id="password-login" class="form-control m-2 rounded">
-        </div>
-
-        <div class="p-4">
-          <h6 >Telefone:</h6>
-          <input type="text" id="password-login" class="form-control m-2 rounded">
-          <h6 >Assunto:</h6>
-          <input type="text" id="password-login" class="form-control m-2 ">
-        </div>
-      </div>
-        <div class="mensagem">
           <h6 >Mensagem:</h6>
-          <textarea class="form-control border border-dark"name="" id="" cols="5" rows="5"></textarea>
-          <button type="button">Enviar</button>
+          <textarea class="form-control border border-dark"  placeholder="First name" aria-label="First name" rows="5" ></textarea>
+          <button class="border border-dark rounded m-3" type="button">Enviar</button>
         </div>
+
+          
       </div>
-    </div> -->
+
+
+      
   </main>
 
     <div class="border-top">
