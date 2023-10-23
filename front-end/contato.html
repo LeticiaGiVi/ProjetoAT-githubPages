@@ -11,7 +11,7 @@
 <body>
   <nav class="container-fluid">
     <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom px-5 ">
-      <img class="me-3" width="50" height="auto" src="../imagens/logo.svg" alt="">
+      <img class="me-3" width="50" height="auto" src="../imagens/logo1.svg" alt="">
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li class="nav-item rounded"><a href="../front-end/index.html" class="nav-link text-dark">Home</a></li>
@@ -29,82 +29,64 @@
 
 
 
-    <main>
-      <div class="text-center fw-bold " >
+    <main class="pb-0 pt-3">
+      <div class="text-center fw-bold pb-5 " >
         <h1>Entre em contato conosco </h1>
         <h5>Nos de sugestões e criticas e comentarios sobre nossos projetos </h5>
       </div>
-
-      <div class="contato container rounded px-5 py-5 col-sm-7 border border-dark">
-
+      <div {border-color: #E4F2FF;} class="contato container rounded px-5 py-5 col-sm-7">
         <div class="row">
           <div class="col m-2">
             <h6 >Nome Completo:</h6>
-            <input type="text" class="form-control border border-dark" placeholder="First name" aria-label="First name">
+            <input type="text" class="form-control rounded-3" aria-label="First name">
           </div>
           <div class="col m-2">
             <h6 >E-mail:</h6>
-            <input type="text" class="form-control border border-dark " placeholder="Last name" aria-label="Last name">
+            <input type="text" class="form-control rounded-3" aria-label="Last name">
           </div>
         </div>
-
         <div class="row">
           <div class="col m-2">
             <h6 >Telofone:</h6>
-            <input type="text" class="form-control border border-dark" placeholder="First name" aria-label="First name">
+            <input type="text" class="form-control rounded-3" aria-label="First name">
           </div>
           <div class="col m-2">
             <h6 >Assunto</h6>
-            <input type="text" class="form-control border border-dark" placeholder="Last name" aria-label="Last name">
+            <input type="text" class="form-control rounded-3" aria-label="Last name">
           </div>
         </div>
           <h6 >Mensagem:</h6>
-          <textarea class="form-control border border-dark"  placeholder="First name" aria-label="First name" rows="5" ></textarea>
+          <textarea class="form-control rounded-3"  aria-label="First name" rows="5" ></textarea>
           <button class="border border-dark rounded m-3" type="button">Enviar</button>
         </div>
-
-          
       </div>
-
-
-      
   </main>
 
-    <div class="border-top">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 container">
-        <div class="col mb-3">
-          <a href="../front-end/index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="imagens/logo.svg"></use></svg>
-          </a>
-          <p class="text-body-secondary">© 2023</p>
-        </div>
-    
-        <div class="col mb-3">
-    
-        </div>
-    
-        <div class="col mb-3">
-          <h5>páginas</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">projetos</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">sobre</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">contato</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">login</a></li>
-          </ul>
-        </div>
-
-    
-        <div class="col mb-3">
-          <h5>Colaboradores</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Leticia</p></li>
-            <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Pedro</p></li>
-            <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Lucas</p></li>
-
-          </ul>
-        </div>
-      </footer>
+  <footer class="row row-cols-md-5 py-3 my-1 d-flex  border-top justify-content-center mt-0">
+    <div class="d-flex flex-row container justify-content-around">
+    <div class="col mb-2">
+      <h5>páginas</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="projetos.html" class="nav-link p-0 text-body-secondary">projetos</a></li>
+        <li class="nav-item mb-2"><a href="sobre.html" class="nav-link p-0 text-body-secondary">sobre</a></li>
+        <li class="nav-item mb-2"><a href="contato.html" class="nav-link p-0 text-body-secondary">contato</a></li>
+        <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-body-secondary">login</a></li>
+      </ul>
     </div>
+    <div class="col mb-3">
+      <h5>Colaboradores</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Leticia</p></li>
+        <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Pedro</p></li>
+        <li class="nav-item mb-2"><p class="nav-link p-0 text-body-secondary">Lucas</p></li>
+
+      </ul>             
+    </div>
+  </div>
+    <div class=" mb-3 position-absolute bottom-0 end-0">
+      <p class="text-body-secondary">© 2023 todos por um,ONG</p>
+    </div>
+  </footer>
 </body>
 </html>

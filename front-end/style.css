@@ -22,6 +22,9 @@ main{
 
 .contato{
   background-color: #E4F2FF;
+  border: 8px;
+  border-radius: 15px,0px,15px,0px;
+  border-color: #E4F2FF;
 }
 
 /*nav img{

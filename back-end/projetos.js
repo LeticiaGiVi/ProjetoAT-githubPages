@@ -6,7 +6,6 @@ fetch(url)
 function mostraProdutos(produtos){
  const htmlProdutos = produtos.map(
  (produto) =>`<div class="card item" style="width: 18rem;">
- <img src=${produto.imagem} width=70% height=70%><br>
  <h4>${produto.nome}</h4><br>
  <form action="paginadeprojeto.html">
  <input type="submit" value="saber mais" />
