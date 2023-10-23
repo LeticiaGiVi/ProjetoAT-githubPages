@@ -1,29 +1,67 @@
+html{
+    scroll-behavior:smooth;
+    position: relative;
+  }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    background-attachment: fixed;
+  background-size:cover;
+  background-image: url(imagens/pexels-alexander-grey-1148998.jpg)
+}
+
+
+main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    display: flex;
+    height: 100%;
 }
+
+nav img{
+    width: 75px;
+    height: 75px;
+  }
+
+  nav{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.801);
+
+  }
+
 .container-login{
-    text-align: center;
+    align-items: flex-start;
+    margin-top: 120px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
+    margin-bottom: 185px;
+    background-color: #000000cc;
+
+
 }
-input{
+.container-login input{
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 15px;
+
 }
 button{
-    background-color: #007bff;
+    background-color: #555756;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+.ButtonLogin{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+
+}
+
+footer{
+  background-color: white;
 }

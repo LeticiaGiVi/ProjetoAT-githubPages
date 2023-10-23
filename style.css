@@ -1,10 +1,42 @@
-body{
-  
-    font-family: 'Chivo', sans-serif !important;
+ html{
+  scroll-behavior:smooth;
+  position: relative;
 }
 
 
+body{
+    font-family: 'Chivo', sans-serif !important;
+    height: 100%;
+    width: 100%;
+}
 
+nav{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contato{
+  background-color: #E4F2FF;
+}
+
+/*nav img{
+  width: 75px;
+  height: 75px;
+}
+nav{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.801);
+
+}
+
+.Navbar{
+  margin-left: 20px;
+}
 .item{
   height: 368px;
   width: 288px;
@@ -13,7 +45,6 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #B7FD97;
   margin: 60px;
 }
 .item h4{
@@ -26,62 +57,66 @@ body{
     flex-wrap:wrap ;
 }
 
-
-#verde{
-  background-color: #B7FD97;
-}
-
-
 .tudo-objetivo{
-  padding: 8%;
-}
+  width: 100%;
 
-.objetivo{
-  margin-bottom: 7.5%;
 }
-
-.tudo-principal{
-  display: flex;
-  flex-direction: row;
-  background-color: #B7FD97;
-}
-.texto-principal{
-  display: flex;
-  flex-direction: column;
-  padding:2.50%;
-  margin-left:5% ;
-  margin-top: 5%;
+.tudo-objetivo img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200;
 }
 
 
+.nav-item1{
+background-color: white;
+border-radius: 20px;
+padding: 5px;
+}
+.nav-item2{
 
-.tudo-principal img{
-  width: 50%;
-  height: 50%;
+  border-radius: 20px;
+  padding: 5px;
+  }
+  .nav-item3{
+   
+    border-radius: 20px;
+    padding: 5px;
+    }
+    .nav-item4{
+  
+      border-radius: 20px;
+      padding: 5px;
+      }
+      .nav-item5{
+    
+        border-radius: 20px;
+        padding: 5px;
+        }
+
+#verde img{
+  width: auto;
+  height: 350px;
 }
 
-
-.texto-principal input{
-  border-radius: 1rem;
-  width: 40%;
-  height:2.50rem ;
-  background-color: #0d6efd;
-  color: white;
-  border: none;
+.mensagem{
+  margin-left: 15%;
+  margin-right: 13%;
 }
 
-
-
-input{
-  border-radius: 1rem;
-  background-color: #0d6efd;
-  color: white;
-  border: none;
+.mensagem button{
+  margin-top: 20px;
   margin-bottom: 20px;
-  height:2rem ;
+  background-color: #555756;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
 }
 
-
-#enviar{
-  margin-bottom: 170px;
-}
+.contatos{
+  background-color: #E4F2FF;
+  margin-left: 340px;
+  margin-right: 340px;
+} */
