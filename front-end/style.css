@@ -21,105 +21,74 @@ main{
 }
 
 .contato{
-  background-color: #E4F2FF;
+  background-color: #9ED2E4;
   border: 8px;
   border-radius: 15px,0px,15px,0px;
   border-color: #E4F2FF;
 }
 
-/*nav img{
-  width: 75px;
-  height: 75px;
-}
-nav{
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.801);
 
-}
 
-.Navbar{
-  margin-left: 20px;
-}
-.item{
-  height: 368px;
-  width: 288px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 60px;
-}
-.item h4{
-    font-size: 20px;
-}
-.projetos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap:wrap ;
-}
 
-.tudo-objetivo{
-  width: 100%;
 
+
+
+
+.background{
+  background-color: #9ED2E4;
 }
-.tudo-objetivo img{
-  border-radius: 100%;
-  width: 200px;
-  height: 200;
+.backgroundcimagem1{
+  background-image:url(../imagens/pexels-csankovszki-tibor-17892635.jpg);
+  background-size: cover;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.backgroundcimagem1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 
-.nav-item1{
-background-color: white;
-border-radius: 20px;
-padding: 5px;
+.backgroundcimagem2{
+  background-image:url(../imagens/pexels-csankovszki-tibor-17892635.jpg);
+  background-size:cover;
+  display: block;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
-.nav-item2{
-
-  border-radius: 20px;
-  padding: 5px;
-  }
-  .nav-item3{
-   
-    border-radius: 20px;
-    padding: 5px;
-    }
-    .nav-item4{
-  
-      border-radius: 20px;
-      padding: 5px;
-      }
-      .nav-item5{
-    
-        border-radius: 20px;
-        padding: 5px;
-        }
-
-#verde img{
-  width: auto;
-  height: 350px;
+.backgroundcimagem2:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.mensagem{
-  margin-left: 15%;
-  margin-right: 13%;
+
+.backgroundcimagem3{
+  background-image:url(../imagens/pexels-csankovszki-tibor-17892635.jpg);
+  background-size:cover;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.backgroundcimagem3:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.mensagem button{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #555756;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 
+
+.backgroundcimage4{
+  background-image:url(../imagens/pexels-csankovszki-tibor-17892635.jpg);
+  background-size:cover;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.backgroundcimagem4:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+button{
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.contatos{
-  background-color: #E4F2FF;
-  margin-left: 340px;
-  margin-right: 340px;
-} */
+
+
+
