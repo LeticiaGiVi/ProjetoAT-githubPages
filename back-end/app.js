@@ -1,31 +1,44 @@
-
+// Corrected JavaScript
 const firebaseConfig = {
-  apiKey: "AIzaSyAWOQ3DmHU1-F9ts6oe-kJEm5bdHvGybs8",
-  authDomain: "projeto2mibteste-e0eb2.firebaseapp.com",
-  projectId: "projeto2mibteste-e0eb2",
-  storageBucket: "projeto2mibteste-e0eb2.appspot.com",
-  messagingSenderId: "207584217469",
-  appId: "1:207584217469:web:00e2e091e7d8a9da0e2414"
+  apiKey: "AIzaSyDqnAH3hh_RYTeFuHaV-XMJNHmkCJkdNIw",
+  authDomain: "todosporum-3094c.firebaseapp.com",
+  projectId: "todosporum-3094c",
+  storageBucket: "todosporum-3094c.appspot.com",
+  messagingSenderId: "355418366079",
+  appId: "1:355418366079:web:1c75e1d7507c607608df4a",
 };
 
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
-  const emailField = document.getElementById('email-login');
-  const passwordField = document.getElementById('password-login');
-  const loginButton = document.getElementById('loginButton');
+function createLogin() {
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
 
-  loginButton.addEventListener('click', () => {
-   const email = emailField.value;
-   const password = passwordField.value;
-   firebase.auth().signInWithEmailAndPassword(email, password)
-   .then((userCredential) => {
-   // Usuário logado com sucesso
-   const user = userCredential.user;
-   console.log('Usuário logado:', user);
-   })
-   .catch((error) => {
-   // Tratar erros de autenticação
-   const errorMessage = error.message;
-   console.error('Erro de autenticação:', errorMessage);
-   });
+  firebase.auth().createUserWithEmailAndPassword(email, password).then(user => {
+    console.log('Usuario', user);
+    alert('Usuário criado e login feito');
+  }).catch(error => {
+    console.error('Erro', error);
   });
+}
+
+function loginEmail() {
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+
+  firebase.auth().signInWithEmailAndPassword(email, password).then(() => {
+    alert('Usuário Logado!');
+  }).catch(error => {
+    console.error('Error', error);
+  });
+}
+
+var currentUser = firebase.auth().currentUser;
+
+function deleteUser() {
+  if (currentUser) {
+    currentUser.delete().then(() => {
+      alert('Usuário deletado');
+    });
+  }
+}

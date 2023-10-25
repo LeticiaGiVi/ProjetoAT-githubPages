@@ -7,6 +7,7 @@
     <link href='https://fonts.google.com/specimen/Chivo' rel='stylesheet' type='text/css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
     <title>Login</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
       </ul>
 
       <div class="text-end">
-        <a href=""><button type="button" class="btn btn-outline-dark me-2">Login</button></a>
+        <a href=""><button type="button" class="btn btn-outline-dark me-2" >Login</button></a>
         <a href="../front-end/cadastro.html"><button type="button" class="btn btn-outline-dark">Sign-up</button></a>
       </div>
     </div>
@@ -33,17 +34,17 @@
     <div class="container-login w-75 ">
 
         <h7 class="text-white">Email:</h7>
-        <input type="email" id="email-login" placeholder="E-mail">
+        <input type="email" id="email" placeholder="E-mail">
         <h7 class="text-white">Senha:</h7>
-        <input type="password" id="password-login" placeholder="Senha">
+        <input type="password" id="password" placeholder="Senha">
         <div class="ButtonLogin mt-4">
-        <button id="loginButton">Entrar</button>
+        <button id="loginButton" onclick="loginEmail()">Entrar</button>
         <p class="fw-bold">Não Possui Conta Ainda?<a href="cadastro.html"> Crie uma</a></p>
       </div>
     </div>
+    <script src="../back-end/app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-    <script src="../back-end/app.js"></script>
   </main>
 
   <footer class="row row-cols-md-5 py-3 my-1 d-flex  border-top  fixed-bottom justify-content-center">
