@@ -11,14 +11,8 @@ body{
 
 .container-login{
     align-items: flex-start;
-    margin-top: 120px;
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 185px;
+    border-radius: 15px;
     background-color: #000000cc;
-
-
 }
 .container-login input{
     width: 100%;
