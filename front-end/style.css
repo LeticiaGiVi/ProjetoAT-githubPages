@@ -11,15 +11,6 @@ body{
     width: 100%;
 }
 
-nav{
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-main{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 .contato{
   background-color: #9ED2E4;
@@ -27,10 +18,6 @@ main{
   border-radius: 15px,0px,15px,0px;
   border-color: #E4F2FF;
 }
-
-
-
-
 
 
 
@@ -90,3 +77,8 @@ button{
   cursor: pointer;
 }
 
+
+.nav-item :hover{
+  font-weight: bold;
+  transition: 0.5s;
+}
