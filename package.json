@@ -1,6 +1,18 @@
 {
+  "name": "todos-por-um_at",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon ./sportszone.js localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "firebase": "^10.5.0",
-    "json-server": "^0.17.4"
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
   }
 }

@@ -14,52 +14,58 @@
       <img class="me-3" width="50" height="auto" src="../imagens/logo1.svg" alt="">
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li class="nav-item rounded"><a href="../front-end/index.html" class="nav-link text-dark">Home</a></li>
-        <li class="nav-item"><a href="../front-end/sobre.html" class="nav-link text-dark">Sobre</a></li>
+        <li class="nav-item rounded"><a href="/index" class="nav-link text-dark">Home</a></li>
+        <li class="nav-item"><a href="/sobrel" class="nav-link text-dark">Sobre</a></li>
         <li class="nav-item"><a href="" class="nav-link text-dark border rounded-pill">Contato</a></li>
       </ul>
 
       <div class="text-end">
-        <a href="../front-end/login.html"><button type="button" class="btn btn-outline-dark me-2">Login</button></a>
-        <a href="../front-end/cadastro.html"><button type="button" class="btn btn-outline-dark">Sign-up</button></a>
+        <a href="/login"><button type="button" class="btn btn-outline-dark me-2">Login</button></a>
+        <a href="/cadastro"><button type="button" class="btn btn-outline-dark">Cadastro</button></a>
       </div>
     </div>
   </nav>
+
+
 
     <main class="pb-0 pt-3">
       <div class="text-center fw-bold pb-5 " >
         <h1>Entre em contato conosco </h1>
         <h5>Nos de sugestões e criticas e comentarios sobre nossos projetos </h5>
       </div>
-      <div class="contato container w-75 p-5 col-sm-7">
+
+      <div class="contato container w-75 p-5 col-sm-7 rounded-top-5 align-items-center">
+        
+        <form  action="/contato" method="post">
+          <div class="row">
+          <div class="col m-2">
+            <label for="inputEmail3" class="col-sm-2 col-form-label text-white">Nome:</label>
+              <input type="text" class="form-control rounded-3" name="nome">
+          </div>
+          <div class="col m-2">
+            <label for="inputPassword3" class="col-sm-2 col-form-label text-white">Email</label>
+              <input type="email" class="form-control rounded-3" name="email">
+          </div>
+        </div>
         <div class="row">
           <div class="col m-2">
-            <h6 >Nome Completo:</h6>
-            <input type="text" class="form-control rounded-3" aria-label="First name">
+            <label for="inputEmail3" class="col-sm-2 col-form-label text-white">Telefone</label>
+              <input type="number" class="form-control rounded-3" name="telefone">
           </div>
           <div class="col m-2">
-            <h6 >E-mail:</h6>
-            <input type="text" class="form-control rounded-3" aria-label="Last name">
+            <label for="inputPassword3" class="col-sm-2 col-form-label text-white">Assunto</label>
+              <input type="text" class="form-control rounded-3" name="assunto">
           </div>
         </div>
-        <div class="row">
-          <div class="col m-2">
-            <h6 >Telofone:</h6>
-            <input type="text" class="form-control rounded-3" aria-label="First name">
-          </div>
-          <div class="col m-2">
-            <h6 >Assunto</h6>
-            <input type="text" class="form-control rounded-3" aria-label="Last name">
-          </div>
-        </div>
-          <h6 >Mensagem:</h6>
-          <textarea class="form-control rounded-3"  aria-label="First name" rows="5" ></textarea>
-          <button class="border border-dark rounded m-3" type="button">Enviar</button>
-        </div>
+        <label class="col-sm-2 col-form-label text-white" >Mensagem:</label>
+          <textarea class="form-control rounded-3" name="mensagem" aria-label="First name" rows="5" ></textarea>
+          <button type="submit" id="idCadastrar" class="border border-dark rounded m-3">Cadastrar</button>
+        </form>
+
       </div>
   </main>
 
-  <footer class="row row-cols-md-5 py-3 my-1 d-flex  border-top justify-content-center mt-0">
+  <footer class="row row-cols-md-5 py-3 my-1 d-flex border-top justify-content-center mt-0">
     <div class="d-flex flex-row container justify-content-around">
     <div class="col mb-2">
       <h5>páginas</h5>
@@ -85,5 +91,8 @@
       <p class="text-body-secondary">© 2023 todos por um,ONG</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
